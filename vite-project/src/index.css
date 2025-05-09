@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+.range-thumb::-webkit-slider-thumb {
+  pointer-events: all;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  }
+
+  input:focus {
+   outline: none;
+  }
+  textarea:focus{
+    outline: none;
+  }
+
+  option:hover {
+    background-color: #3164af; /* light grey */
+    color: black;
+  }
+
